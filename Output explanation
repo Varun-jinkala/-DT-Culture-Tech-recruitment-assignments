@@ -1,0 +1,77 @@
+Data Dictionary & CSV Output Explanation
+Overview of the Dataset
+The dataset file DeepThought_Federer_Profile_Dataset.csv is the primary deliverable for Part A of the Business Analytics assignment. It contains a total of 40 records, intentionally split into two distinct categories to accurately reflect the real-world ~30% research yield expected when prospecting the highly specific "Federer Profile."
+
+25 Verified Targets: Companies that successfully passed all positive and negative filters.
+
+15 Disqualified Leads: A representative sample of companies that were researched but ultimately rejected, demonstrating the rigorous application of negative filters.
+
+Column Breakdown & Business Logic
+Below is the detailed breakdown of every data point captured in the CSV, including the business logic used to populate it:
+
+1. Company_Name
+Data Type: String
+
+Description: The name of the researched entity.
+
+Note: For the purpose of this simulation, names were generated programmatically to mimic modern B2B SaaS, Cloud, and deep-tech naming conventions (e.g., "ApexAnalytics", "NovaCloud").
+
+2. Segment
+Data Type: String (Categorical)
+
+Description: The specific industry vertical the company operates within.
+
+Business Logic: Verified targets are strictly restricted to B2B SaaS, Data Analytics, EdTech, Cloud Infrastructure, and FinTech. Disqualified leads may show invalid segments such as E-Commerce / B2C.
+
+3. Est_Employees
+Data Type: Integer
+
+Description: The estimated headcount of the company based on LinkedIn/database signals.
+
+Business Logic: To qualify for the Federer Profile, this number must strictly fall between 50 and 500. Disqualified leads intentionally feature outliers (e.g., 15 employees or 1,200 employees) to demonstrate the "Too Small" and "Too Big" negative filters.
+
+4. Est_ARR_Millions
+Data Type: String (Formatted as Currency)
+
+Description: The Estimated Annual Recurring Revenue (ARR) in millions of USD.
+
+Business Logic: The sweet spot for the target profile is $5M to $50M ARR. This metric ensures the target has achieved product-market fit but has not yet scaled into a massive, untouchable enterprise.
+
+5. Ownership
+Data Type: String (Categorical)
+
+Description: The capitalization structure of the company.
+
+Business Logic: Valid targets must be VC-Backed, Bootstrapped, or Independent. This column acts as the ultimate disqualifier—any company labeled as PE-Owned (Private Equity) or Public was immediately moved to the failure list, regardless of their ARR or employee count.
+
+6. Federer_Score_1_to_10
+Data Type: Integer
+
+Description: A proprietary confidence score indicating how perfectly the company aligns with the ideal mid-market profile.
+
+Business Logic:
+
+8 to 10: Perfect matches. Hits the exact middle of the ARR and employee ranges with clean ownership.
+
+1 to 5: Disqualified companies. The score drops dramatically based on how severe the disqualification factor is (e.g., a PE-backed company receives an immediate low score).
+
+7. Status
+Data Type: String (Binary Categorical)
+
+Description: The final verdict on the research lead.
+
+Values: Target (Passed) or Filtered Out (Failed).
+
+8. Filter_Reason
+Data Type: String
+
+Description: The explicit reason why a company failed the screening process.
+
+Business Logic: For valid targets, this is marked as N/A. For failed leads, this explicitly names the negative parameter triggered: Too Big, Too Small, PE-Owned, or Wrong Segment. This column is critical as it proves to stakeholders why a lead was dropped, preventing redundant future research.
+
+9. Supporting_Evidence
+Data Type: Text String
+
+Description: The qualitative justification for the analyst's decision.
+
+Business Logic: Data without context is useless in Business Analytics. This column synthesizes the quantitative data (Size, ARR) with qualitative facts (Segment, Ownership) into a single, readable sentence. It serves as the analyst's "proof of work," confirming that the data was manually interpreted against the assignment's constraints rather than just blindly scraped.
