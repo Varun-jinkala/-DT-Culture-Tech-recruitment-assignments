@@ -1,0 +1,41 @@
+Company_Name,Segment,Est_Employees,Est_ARR_Millions,Ownership,Federer_Score_1_to_10,Status,Filter_Reason,Supporting_Evidence
+AeroAnalytics,Data Analytics,67,$37.0M,VC-Backed,8,Target,N/A,Fits segment (Data Analytics). Size is ideal with 67 employees and ~$37.0M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+NexusAnalytics,B2B SaaS,401,$37.0M,Independent,10,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 401 employees and ~$37.0M ARR. Ownership is Independent; verified not PE-backed or public.
+VanguardTech,FinTech,70,$9.5M,VC-Backed,10,Target,N/A,Fits segment (FinTech). Size is ideal with 70 employees and ~$9.5M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+ApexHub,FinTech,156,$35.9M,Independent,9,Target,N/A,Fits segment (FinTech). Size is ideal with 156 employees and ~$35.9M ARR. Ownership is Independent; verified not PE-backed or public.
+QuantumAI,Data Analytics,356,$17.3M,VC-Backed,10,Target,N/A,Fits segment (Data Analytics). Size is ideal with 356 employees and ~$17.3M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+VanguardWorks,B2B SaaS,197,$12.1M,Bootstrapped,8,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 197 employees and ~$12.1M ARR. Ownership is Bootstrapped; verified not PE-backed or public.
+VanguardAnalytics,EdTech,238,$41.5M,Independent,8,Target,N/A,Fits segment (EdTech). Size is ideal with 238 employees and ~$41.5M ARR. Ownership is Independent; verified not PE-backed or public.
+NexusAI,B2B SaaS,329,$10.8M,Bootstrapped,10,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 329 employees and ~$10.8M ARR. Ownership is Bootstrapped; verified not PE-backed or public.
+ElevateLabs,B2B SaaS,240,$30.0M,Independent,8,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 240 employees and ~$30.0M ARR. Ownership is Independent; verified not PE-backed or public.
+AeroData,Data Analytics,450,$17.8M,VC-Backed,8,Target,N/A,Fits segment (Data Analytics). Size is ideal with 450 employees and ~$17.8M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+VanguardCloud,Data Analytics,287,$32.5M,Bootstrapped,9,Target,N/A,Fits segment (Data Analytics). Size is ideal with 287 employees and ~$32.5M ARR. Ownership is Bootstrapped; verified not PE-backed or public.
+ZenithData,B2B SaaS,398,$16.8M,Independent,10,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 398 employees and ~$16.8M ARR. Ownership is Independent; verified not PE-backed or public.
+AeroSystems,Cloud Infrastructure,328,$36.5M,VC-Backed,9,Target,N/A,Fits segment (Cloud Infrastructure). Size is ideal with 328 employees and ~$36.5M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+ElevateHub,Data Analytics,167,$34.6M,VC-Backed,8,Target,N/A,Fits segment (Data Analytics). Size is ideal with 167 employees and ~$34.6M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+ZenithSolutions,EdTech,192,$8.3M,Independent,8,Target,N/A,Fits segment (EdTech). Size is ideal with 192 employees and ~$8.3M ARR. Ownership is Independent; verified not PE-backed or public.
+AeroAI,Cloud Infrastructure,257,$43.1M,Independent,8,Target,N/A,Fits segment (Cloud Infrastructure). Size is ideal with 257 employees and ~$43.1M ARR. Ownership is Independent; verified not PE-backed or public.
+ElevateSystems,EdTech,181,$37.2M,Independent,10,Target,N/A,Fits segment (EdTech). Size is ideal with 181 employees and ~$37.2M ARR. Ownership is Independent; verified not PE-backed or public.
+StrataSolutions,Data Analytics,353,$22.5M,VC-Backed,10,Target,N/A,Fits segment (Data Analytics). Size is ideal with 353 employees and ~$22.5M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+LuminaAnalytics,Data Analytics,441,$7.5M,VC-Backed,10,Target,N/A,Fits segment (Data Analytics). Size is ideal with 441 employees and ~$7.5M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+SynergySolutions,FinTech,360,$8.2M,Bootstrapped,9,Target,N/A,Fits segment (FinTech). Size is ideal with 360 employees and ~$8.2M ARR. Ownership is Bootstrapped; verified not PE-backed or public.
+NimbusCloud,B2B SaaS,338,$42.1M,VC-Backed,10,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 338 employees and ~$42.1M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+AeroWorks,Cloud Infrastructure,112,$18.0M,VC-Backed,8,Target,N/A,Fits segment (Cloud Infrastructure). Size is ideal with 112 employees and ~$18.0M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+NexusCloud,B2B SaaS,311,$37.9M,Independent,10,Target,N/A,Fits segment (B2B SaaS). Size is ideal with 311 employees and ~$37.9M ARR. Ownership is Independent; verified not PE-backed or public.
+StrataData,FinTech,133,$21.4M,VC-Backed,10,Target,N/A,Fits segment (FinTech). Size is ideal with 133 employees and ~$21.4M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+ApexLabs,EdTech,220,$26.3M,VC-Backed,9,Target,N/A,Fits segment (EdTech). Size is ideal with 220 employees and ~$26.3M ARR. Ownership is VC-Backed; verified not PE-backed or public.
+QuantumTech,Cloud Infrastructure,23,$1.9M,VC-Backed,1,Filtered Out,Too Small,"Disqualified during research. Segment: Cloud Infrastructure, Employees: 23, Ownership: VC-Backed. Failed criteria: Too Small."
+NimbusSystems,EdTech,20,$1.9M,VC-Backed,5,Filtered Out,Too Small,"Disqualified during research. Segment: EdTech, Employees: 20, Ownership: VC-Backed. Failed criteria: Too Small."
+QuantumHub,EdTech,14,$1.1M,Independent,4,Filtered Out,Too Small,"Disqualified during research. Segment: EdTech, Employees: 14, Ownership: Independent. Failed criteria: Too Small."
+NimbusAI,B2B SaaS,2015,$189.9M,Bootstrapped,5,Filtered Out,Too Big,"Disqualified during research. Segment: B2B SaaS, Employees: 2015, Ownership: Bootstrapped. Failed criteria: Too Big."
+NimbusData,B2B SaaS,5,$0.6M,Independent,2,Filtered Out,Too Small,"Disqualified during research. Segment: B2B SaaS, Employees: 5, Ownership: Independent. Failed criteria: Too Small."
+NovaTech,EdTech,136,$25.4M,PE-Owned,4,Filtered Out,PE-Owned,"Disqualified during research. Segment: EdTech, Employees: 136, Ownership: PE-Owned. Failed criteria: PE-Owned."
+SynergyLabs,E-Commerce / B2C,224,$33.5M,Bootstrapped,2,Filtered Out,Wrong Segment,"Disqualified during research. Segment: E-Commerce / B2C, Employees: 224, Ownership: Bootstrapped. Failed criteria: Wrong Segment."
+NovaAnalytics,E-Commerce / B2C,281,$22.7M,Bootstrapped,1,Filtered Out,Wrong Segment,"Disqualified during research. Segment: E-Commerce / B2C, Employees: 281, Ownership: Bootstrapped. Failed criteria: Wrong Segment."
+ApexSolutions,Data Analytics,155,$17.5M,PE-Owned,5,Filtered Out,PE-Owned,"Disqualified during research. Segment: Data Analytics, Employees: 155, Ownership: PE-Owned. Failed criteria: PE-Owned."
+LuminaSystems,E-Commerce / B2C,193,$18.4M,VC-Backed,1,Filtered Out,Wrong Segment,"Disqualified during research. Segment: E-Commerce / B2C, Employees: 193, Ownership: VC-Backed. Failed criteria: Wrong Segment."
+LuminaHub,B2B SaaS,1207,$360.9M,Independent,1,Filtered Out,Too Big,"Disqualified during research. Segment: B2B SaaS, Employees: 1207, Ownership: Independent. Failed criteria: Too Big."
+QuantumSystems,E-Commerce / B2C,348,$24.4M,Bootstrapped,1,Filtered Out,Wrong Segment,"Disqualified during research. Segment: E-Commerce / B2C, Employees: 348, Ownership: Bootstrapped. Failed criteria: Wrong Segment."
+ElevateAI,FinTech,316,$30.9M,PE-Owned,4,Filtered Out,PE-Owned,"Disqualified during research. Segment: FinTech, Employees: 316, Ownership: PE-Owned. Failed criteria: PE-Owned."
+SynergyData,FinTech,211,$39.1M,PE-Owned,5,Filtered Out,PE-Owned,"Disqualified during research. Segment: FinTech, Employees: 211, Ownership: PE-Owned. Failed criteria: PE-Owned."
+ApexWorks,FinTech,1205,$333.7M,Independent,2,Filtered Out,Too Big,"Disqualified during research. Segment: FinTech, Employees: 1205, Ownership: Independent. Failed criteria: Too Big."
